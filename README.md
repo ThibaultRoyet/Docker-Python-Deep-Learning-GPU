@@ -1,6 +1,6 @@
 # Docker Python Deep Learning GPU
 
-This a docker image for deep learning that I created in march 2020.
+This is a docker image for deep learning that I created in march 2020.
 The docker can use nvidia GPU therefore the docker image is quite big (6GB+).
 You can check https://hub.docker.com/r/nvidia/cuda/ if you want to switch the based image but make sure that its compatible with the tensorflow version.
 
