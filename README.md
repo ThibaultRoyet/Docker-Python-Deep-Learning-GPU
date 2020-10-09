@@ -36,8 +36,8 @@ pip3 install docker-compose
 You just need to clone the repo.
 
 ```
-git clone git@github.com:ThibaultRoyet/Perso-Deep-Learning-Instance.git
-cd Perso-Deep-Learning-Instance
+git clone git@github.com:ThibaultRoyet/Docker-Python-Deep-Learning-GPU.git
+cd Docker-Python-Deep-Learning-GPU
 docker-compose build
 ```
 
