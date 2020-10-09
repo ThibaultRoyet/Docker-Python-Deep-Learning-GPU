@@ -1,4 +1,4 @@
-# Perso-Deep-Learning-Instance
+# Docker Python Deep Learning GPU
 
 This a docker image for deep learning that I created in march 2020.
 The docker can use nvidia GPU therefore the docker image is quite big (6GB+).
