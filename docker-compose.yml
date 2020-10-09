@@ -1,0 +1,28 @@
+
+version: '2.3'
+
+services:
+  notebook:
+    # user: UID
+    build:
+      context: ./jupyter-notebook
+
+    # Uncomment the next line if you don't want to use your GPU
+    # runtime: nvidia
+
+    # Some examples if you want to have shared volumes between you docker instance and your computer.
+    # remember that once the docker instance closes the files that are not shared will be deleted. 
+
+    # volumes:
+    #   - ../../Data:/notebooks/Data
+    #   - ../../tensorboard:/notebooks/tensorboard
+    #   - ../../AIProject:/notebooks/AIProject
+
+    ports:
+      - "18888:8888"
+
+    environment:
+      # Uncomment and modify the next line if you want a fixed token to acces to your jupyter notebook
+      # - JUPYTER_TOKEN=token 
+      - NVIDIA_VISIBLE_DEVICES=all
+
