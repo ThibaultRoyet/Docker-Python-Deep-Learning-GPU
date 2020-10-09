@@ -13,12 +13,12 @@ Finaly you might want to check the docker-compose.yml for different purpose:
 - If you want to have a fixed value for you jupter token that you need everytime you start the jupyter
 
 ## Included Libraries
-Ubuntu 18.04 LTS
-CUDA 10.1
-Python 3.8
-Tensorflow 2.1
-Jupyter Notebook
-Numpy, Scipy, Scikit Learn, Scikit Image, Pandas, Matplotlib
+* Ubuntu 18.04 LTS
+* CUDA 10.1
+* Python 3.8
+* Tensorflow 2.1
+* Jupyter Notebook
+* Numpy, Scipy, Scikit Learn, Scikit Image, Pandas, Matplotlib
 
 
 ## Getting Started
