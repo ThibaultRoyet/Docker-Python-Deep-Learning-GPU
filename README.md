@@ -7,7 +7,7 @@ You can check https://hub.docker.com/r/nvidia/cuda/ if you want to switch the ba
 Using docker-compose you can avoid the very long command line to start your container and its easy to modify!
 Don't hesitate to add a ton of library like Pytorch, OpenCV, The dockerfile is very short and easy to modify on purpose! :)
 
-Finaly you might want to check the docker-compose.yml for different purpose:
+Finaly you might want to check the docker-compose.yml for different purposes:
 - If you want or don't want to use your nvidia GPU, check the runtime section
 - If you want to add a shared volume (between you conputer and the container, Very usefull!)
 - If you want to have a fixed value for you jupyter token that you need everytime you start the jupyter
