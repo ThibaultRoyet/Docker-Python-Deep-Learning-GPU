@@ -14,7 +14,6 @@ RUN apt-get update && \
                         python-opengl \
                         ffmpeg \
                         graphviz \
-                        xvfb \ 
                         cmake \
                         swig3.0 && \
                         ln -s /usr/bin/swig3.0 /usr/bin/swig
@@ -30,12 +29,10 @@ RUN pip3 install --upgrade numpy \
                 sklearn \
                 jupyter \ 
                 matplotlib \
-                gym \ 
                 pyglet \
                 tqdm \
                 graphviz \
                 pydot \
-                pydot_ng \ 
                 seaborn \
                 scikit-image \
                 tensorflow-gpu==2.1 
