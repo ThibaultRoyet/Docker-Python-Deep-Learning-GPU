@@ -27,7 +27,7 @@ Finaly you might want to check the docker-compose.yml for different purposes:
 * Python 3.8
 * Tensorflow 2.1
 * Jupyter Notebook
-* Numpy, Scipy, Scikit Learn, Scikit Image, Pandas, Matplotlib
+* Numpy, Scikit Learn, Scikit Image, Pandas, Matplotlib
 
 
 ## Getting Started
