@@ -1,7 +1,10 @@
 # Docker Python Deep Learning GPU
 
-![](images/docker_logo.png | width="200") 
-![](images/tensorflow_logo.png | width="200")
+
+<p float="left">
+  <img src="images/docker_logo.png" width="100" />
+  <img src="images/tensorflow_logo.png" width="100" /> 
+</p>
 
 This is a docker image for deep learning that I created in march 2020.
 The docker can use nvidia GPU therefore the docker image is quite big (6GB+).
