@@ -2,8 +2,9 @@
 
 
 <p float="left">
-  <img src="images/docker_logo.png" width="100" />
-  <img src="images/tensorflow_logo.png" width="100" /> 
+  <img src="images/docker_logo.png" width="200" />
+  <img src="images/tensorflow_logo.png" width="200" />
+  <img src="images/nvidia_logo.png" width="200" /> 
 </p>
 
 This is a docker image for deep learning that I created in march 2020.
