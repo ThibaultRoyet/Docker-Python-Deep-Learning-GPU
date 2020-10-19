@@ -78,6 +78,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 GPU Runtime problems:
 https://github.com/docker/compose/issues/6691
 
+root permissions:
+https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue
+
 
 ## Usefull link
 
