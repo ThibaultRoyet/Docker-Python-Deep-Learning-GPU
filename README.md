@@ -36,8 +36,7 @@ Finaly you might want to check the docker-compose.yml for different purposes:
 
 You will need to install Docker and Docker-compose.
 ```
-pip3 install docker
-pip3 install docker-compose
+sudo apt-get install docker.io nvidia-container-toolkit docker-compose
 ```
 
 ### Installing
