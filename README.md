@@ -34,10 +34,18 @@ Finaly you might want to check the docker-compose.yml for different purposes:
 
 ### Prerequisites
 
-You will need to install Docker and Docker-compose.
+You will need to have Docker installed.
 ```
-sudo apt-get install docker.io nvidia-container-toolkit docker-compose
+sudo apt-get install docker.io nvidia-container-toolkit
 ```
+And Docker-compose:
+https://docs.docker.com/compose/install/
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+```
+
+
 
 ### Installing
 
