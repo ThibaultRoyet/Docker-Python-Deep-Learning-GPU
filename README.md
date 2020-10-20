@@ -34,11 +34,15 @@ Finaly you might want to check the docker-compose.yml for different purposes:
 
 ### Prerequisites
 
-You will need to install Docker and Docker-compose.
-```
-pip3 install docker
-pip3 install docker-compose
-```
+You will need to have installed:
+* Docker:
+https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
+* Docker-compose:
+https://docs.docker.com/compose/install/
+* nvidia-docker:
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker
+
+
 
 ### Installing
 
@@ -77,6 +81,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 GPU Runtime problems:
 https://github.com/docker/compose/issues/6691
+https://stackoverflow.com/questions/59222651/error-the-compose-file-docker-compose-yaml-is-invalid-because-unsupported
+
+root permissions:
+https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue
 
 
 ## Usefull link
