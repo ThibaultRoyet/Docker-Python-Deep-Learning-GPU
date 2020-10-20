@@ -1,5 +1,5 @@
 #Start from an image that suit your device
-FROM nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
+FROM nvidia/cuda:10.1-cudnn7-runtime-ubuntu18.04
 
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse" >> /etc/apt/sources.list 
@@ -23,7 +23,7 @@ RUN apt-get upgrade -y
 RUN pip install --upgrade pip
 
 # Deep learning
-RUN pip3 install --upgrade numpy \
+RUN pip3 install --upgrade --use-feature=2020-resolver numpy \
                 scipy \ 
                 pandas \ 
                 sklearn \
@@ -35,7 +35,7 @@ RUN pip3 install --upgrade numpy \
                 pydot \
                 seaborn \
                 scikit-image \
-                tensorflow-gpu==2.1 
+                tensorflow-gpu  
                 
 
 
