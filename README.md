@@ -35,7 +35,7 @@ Finaly you might want to check the docker-compose.yml for different purposes:
 ### Prerequisites
 
 You will need to have installed:
-* Docker
+* Docker:
 https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 * Docker-compose:
 https://docs.docker.com/compose/install/
